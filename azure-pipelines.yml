@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'ignasprak.test-flask-cloud-run'
+    environment: 'lairdptestflaskcloudrun.default'
     strategy:
       runOnce:
         deploy:
